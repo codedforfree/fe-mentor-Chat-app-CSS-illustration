@@ -1,0 +1,34 @@
+<div class="phone w-[247px] h-[505px] bg-white rounded-[30px] relative px-[9.5px] py-[11px] overflow-clip box-shadow-large">
+    <div class="notch w-[129px] h-[29px] bg-white absolute top-0 left-1/2 -translate-x-1/2 rounded-b-[14px] z-20"></div>
+    <div class="phone__inner absolute rounded-[20px] left-[9.5px] right-[9.5px] top-[11px] bottom-[11px] bg-[#F5F3F7] z-10 overflow-clip">
+
+        <header class="gradient pt-[30px] pb-[12px] pl-[15.5px] pr-[16.5px] flex items-center justify-between rounded-b-[6px]">
+            <div class="flex items-center">
+                <svg class="chevron-left mr-2" width="4" height="10" viewBox="0 0 4 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.10557 0.552784C2.35256 0.0588057 2.95324 -0.141419 3.44721 0.105571C3.90591 0.334918 4.11131 0.869227 3.94056 1.33989L3.89443 1.44721L2.118 5L3.89443 8.55278C4.12377 9.01148 3.96751 9.56217 3.54851 9.83625L3.44721 9.89443C2.98852 10.1238 2.43783 9.96751 2.16374 9.54851L2.10557 9.44721L0.105573 5.44721C-0.0150818 5.2059 -0.0323182 4.92797 0.0538637 4.6762L0.105573 4.55278L2.10557 0.552784Z" fill="white"/>
+                </svg>
+                <div class="flex">
+                    <img class="w-6 h-6 border border-white rounded-full mr-2" src="./img/avatar.jpg" alt="">
+                    <div>
+                        <h2 class="text-[11px] leading-[13.04px] font-medium text-white">Samuel Green</h2>
+                        <p class="text-[9px] leading-[9.48px] mt-[2px] text-[#D99EFF]">Available to Walk</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <svg width="2" height="8" viewBox="0 0 2 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2 1C2 1.55228 1.55228 2 1 2C0.447715 2 0 1.55228 0 1C0 0.447715 0.447715 0 1 0C1.55228 0 2 0.447715 2 1ZM2 4C2 4.55228 1.55228 5 1 5C0.447715 5 0 4.55228 0 4C0 3.44772 0.447715 3 1 3C1.55228 3 2 3.44772 2 4ZM1 8C1.55228 8 2 7.55228 2 7C2 6.44772 1.55228 6 1 6C0.447715 6 0 6.44772 0 7C0 7.55228 0.447715 8 1 8Z" fill="white"/>
+                </svg>
+            </div>
+        </header>
+
+        <main class="pt-[11px] px-[7.5px]">
+            {% include "iphone/chat.njk" %}
+        </main>
+
+        <footer class="absolute bottom-[10.09px] left-[7.5px] right-[7.5px]">
+            {% include "iphone/input.njk" %}
+        </footer>
+
+    </div>
+</div>

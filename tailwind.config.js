@@ -2,7 +2,7 @@ module.exports = {
   content: ['./src/**/*.njk', './src/**/*.md',],
   theme: {
     extend: {
-     colors: {
+      colors: {
         'light-cyan': 'hsl(193, 38%, 86%)',
         'neon-green': 'hsl(150, 100%, 66%)',
         'grayish-blue': 'hsl(217, 19%, 38%)',
@@ -10,7 +10,7 @@ module.exports = {
         'dark-blue': 'hsl(218, 23%, 16%)',
       },
       fontFamily: {
-        sans: ['Manrope']
+        sans: ['Rubik']
       }
     },
   },

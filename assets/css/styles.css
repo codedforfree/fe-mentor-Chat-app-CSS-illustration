@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.gradient {
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+}
+
+.phone__inner {
+  border: 1px solid rgba(62, 39, 83, 0.0509178);
+}
+
+.gradient-2 {
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+}
+
+.box-shadow {
+  box-shadow: 0px 10px 5px -5px rgba(62, 39, 83, 0.045318);
+}
+.box-shadow-large {
+  box-shadow: 0px 30px 60px -10px rgba(62, 39, 83, 0.251202);
+}
+.visual-left {
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+}
