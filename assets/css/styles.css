@@ -6,10 +6,6 @@
   background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
 }
 
-.phone__inner {
-  border: 1px solid rgba(62, 39, 83, 0.0509178);
-}
-
 .gradient-2 {
   background: linear-gradient(-225deg, #e844ff 0%, #8739ff 100%);
 }
